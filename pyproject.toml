@@ -1,0 +1,11 @@
+[project]
+name = "demo-python-app"
+version = "0.1.0"
+description = "Demo App to show UV in action"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]>=0.115.5",
+    "pytz>=2024.2",
+    "uvicorn>=0.32.0",
+]
